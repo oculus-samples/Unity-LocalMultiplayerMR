@@ -1,0 +1,19 @@
+{
+    "name": "com.meta.xr.colocation",
+    "rootNamespace": "",
+    "references": [
+        "Oculus.VR",
+        "Oculus.Platform",
+        "UniTask",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

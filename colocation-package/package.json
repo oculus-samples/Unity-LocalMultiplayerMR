@@ -1,0 +1,14 @@
+{
+  "name": "com.meta.xr.colocation",
+  "displayName": "[XR] Colocation",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Colocation Package",
+  "keywords": [
+    "xr",
+    "colocation"
+  ],
+  "dependencies": {
+  },
+  "type": "library"
+}
