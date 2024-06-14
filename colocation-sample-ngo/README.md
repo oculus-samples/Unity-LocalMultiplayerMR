@@ -2,6 +2,8 @@
 
 This Sample demonstrates how to enable Local Multiplayer in Mixed Reality using Unity and Netcode for GameObjects
 
+If you are using Oculus Core SDK v65+, the majority of this code has been ported over to [Multiplayer Building Blocks](https://developer.oculus.com/documentation/unity/bb-multiplayer-blocks/) which provides a simpler version of this sample that demonstrates how to enable Mixed Reality Local Multiplayer
+
 More specifically the sample demonstrates the following
 - **Matchmaking** - Finding Players to play with
 - **Player Connection**  - Players joining the same game to play in
