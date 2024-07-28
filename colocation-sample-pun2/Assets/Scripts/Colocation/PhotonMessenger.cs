@@ -26,7 +26,7 @@ namespace com.meta.xr.colocation.pun2
         }
 
         public static readonly PhotonEventCodes DEFAULT_PHOTON_EVENT_CODES = new PhotonEventCodes()
-            { AnchorShareRequest = 4, AnchorShareCompleted = 7 };
+        { AnchorShareRequest = 4, AnchorShareCompleted = 7 };
 
         private PhotonIDDictionary _idDictionary;
         private PhotonEventCodes _photonEventCodes;
