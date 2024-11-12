@@ -2,7 +2,7 @@
 
 This Repo contains samples that demonstrates how to enable Local Multiplayer in Mixed Reailty using Unity
 
-If you are using Oculus Core SDK v65+ and (Netcode for GameObjects or Photon Fusion 2) the majority of this code has been ported over to [Multiplayer Building Blocks](https://developer.oculus.com/documentation/unity/bb-multiplayer-blocks/) which provides a simpler version of this repo that demonstrates how to enable Mixed Reality Local Multiplayer
+If you are using [Meta XR Core SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169) v65+ and (Netcode for GameObjects or Photon Fusion 2) the majority of this code has been ported over to [Multiplayer Building Blocks](https://developer.oculus.com/documentation/unity/bb-multiplayer-blocks/) which provides a simpler version of this repo that demonstrates how to enable Mixed Reality Local Multiplayer
 
 ## Sample Description
 
