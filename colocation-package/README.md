@@ -34,3 +34,7 @@ If you are using Oculus Core SDK v65+ the majority of this code has been ported 
              1. As an example of how to get OculusId refer to `TryGetOculusUser` in `NGOSampleFlowBootstrapper`, `FusionSampleFlowBootstrapper`
              2. As an different example of how to get OculusId refer to `Init()` in `PUNNetworkBootstrapper`
         7. Examples of Calling Colocation can be found in `SetUpAndStartAutomaticColocation` in `NGONetworkBootstrapper`, `FusionNetworkBootstrapper`, and `PUNNetworkBootstrapper`
+
+## License
+
+The majority of Colocation Package is licensed under [MIT LICENSE](./LICENSE.txt).

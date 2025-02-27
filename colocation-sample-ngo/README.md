@@ -83,3 +83,7 @@ Your app appears not to be entitled. Make sure the **Building the project** sect
 <b>The networking layer I want to use for my Unity Multiplayer Mixed Reality App isn't supported what do I do?</b>
 
 The networking layer will most likely have its own APIs for handling Matchmaking and for Player Connection. As for Colocation, the Colocation Package provides interfaces like `INetworkData` and `INetworkMessenger` that need to be implemented in order to enable colocation regardless of the networking layer used. Refer to how we implement the Colocation Package in the Samples.
+
+## License
+
+The majority of this sample is licensed under [MIT LICENSE](./LICENSE.txt), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), are licensed under their respective licensing terms.

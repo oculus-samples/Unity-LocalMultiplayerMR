@@ -36,6 +36,6 @@ In each Unity Project, the Multiplayer Sample contains the following
 
 ## License
 
-This codebase is available as both a sample and a template for mixed reality projects. The [Oculus License](./LICENSE.txt) applies to the SDK and supporting material. The MIT License applies to only certain, clearly marked documents. If an individual file does not indicate which license it is subject to, then the Oculus License applies.
+This codebase is available as both a sample and a template for mixed reality projects. The majority of the project is licensed under [MIT LICENSE](./LICENSE.txt), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), and Photon SDK[[1](./colocation-sample-fusion/Assets/ThirdParty/Photon/LICENSE.txt)] [[2](./colocation-sample-pun2/Assets/ThirdParty/Photon/LICENSE.txt)], are licensed under their respective licensing terms.
 
 See the [CONTRIBUTING](./CONTRIBUTING.md) file for how to help out.
