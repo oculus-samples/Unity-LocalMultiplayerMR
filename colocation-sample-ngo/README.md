@@ -11,13 +11,13 @@ More specifically the sample demonstrates the following
 
 ## Requirements
 
-- Unity Version: 2022.3.12f1
+- Unity Version: 2022.3.15f1
 - Mac or Windows
 
 ## Getting Started
 
 <b>Opening the project </b><br>
-1. Install [Unity Version 2022.3.12f1](https://unity.com/releases/editor/whats-new/2022.3.12)
+1. Install [Unity Version 2022.3.15f1](https://unity.com/releases/editor/whats-new/2022.3.15)
 
 <b> Building the project</b><br>
 In order to colocate with Shared Spatial Anchors we are required to have entitlements. The following steps outline how get the entitlements
