@@ -4,6 +4,7 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace com.meta.xr.colocation.samples.fusion
@@ -11,6 +12,7 @@ namespace com.meta.xr.colocation.samples.fusion
     /// <summary>
     ///     A class that handles matchmaking
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-Fusion")]
     public class LocalNetworkDiscovery : IDisposable
     {
         private readonly int _port;

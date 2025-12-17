@@ -4,16 +4,18 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
+using Meta.XR.Samples;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
-using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 namespace com.meta.xr.colocation.pun2
 {
     /// <summary>
     ///     Class that handles the mapping between playerId and networkId
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-PUN2")]
     public class PhotonIDDictionary : IInRoomCallbacks
     {
         private List<ulong> _playerIds;

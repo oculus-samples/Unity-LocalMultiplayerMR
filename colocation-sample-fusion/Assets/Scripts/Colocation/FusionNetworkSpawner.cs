@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using com.meta.xr.colocation.samples.fusion;
 using Fusion;
 using Fusion.Sockets;
+using Meta.XR.Samples;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,6 +16,7 @@ namespace com.meta.xr.colocation.fusion
     /// <summary>
     ///     A class to handle starting a game
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-Fusion")]
     public class FusionNetworkSpawner : MonoBehaviour, INetworkRunnerCallbacks
     {
         [SerializeField] private GameObject _fusionNetworkBootstrapperPrefab;

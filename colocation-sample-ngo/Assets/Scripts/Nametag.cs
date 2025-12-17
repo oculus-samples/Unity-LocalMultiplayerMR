@@ -1,17 +1,19 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
-using UnityEngine;
-using UnityEngine.UI;
+using Meta.XR.Samples;
 using TMPro;
 using Unity.Collections;
 using Unity.Netcode;
+using UnityEngine;
 using UnityEngine.Assertions;
+using UnityEngine.UI;
 
 namespace com.meta.xr.colocation.ngo.debug
 {
     /// <summary>
     ///     A class that handles the behavior of a networked name tag
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-NGO")]
     public class Nametag : NetworkBehaviour
     {
         [SerializeField] private TextMeshProUGUI textRef;

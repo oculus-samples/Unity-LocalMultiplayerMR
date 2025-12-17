@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using System.Collections.Generic;
+using Meta.XR.Samples;
 using Unity.Netcode;
 
 namespace com.meta.xr.colocation.ngo
@@ -9,6 +10,7 @@ namespace com.meta.xr.colocation.ngo
     ///     A Netcode for GameObjects concrete implementation of INetworkData
     ///     Used to manage a Player and Anchor list that all players that colocated are in
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-NGO")]
     public class NetcodeGameObjectsNetworkData : NetworkBehaviour, INetworkData
     {
         private readonly NetworkVariable<uint> colocationGroupCount = new();

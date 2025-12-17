@@ -4,6 +4,7 @@ using System.Net;
 using System.Threading.Tasks;
 using com.meta.xr.colocation.fusion;
 using Fusion;
+using Meta.XR.Samples;
 using Oculus.Platform;
 using Oculus.Platform.Models;
 using UnityEngine;
@@ -13,6 +14,7 @@ namespace com.meta.xr.colocation.samples.fusion
     /// <summary>
     ///     A class that initializes the multiplayer sample and handles player connection
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-Fusion")]
     public class FusionSampleFlowBootstrapper : MonoBehaviour
     {
         [SerializeField] private FusionNetworkSpawner fusionNetworkSpawner;

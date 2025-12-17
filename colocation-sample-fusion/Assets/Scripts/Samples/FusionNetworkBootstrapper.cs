@@ -3,6 +3,7 @@
 using com.meta.xr.colocation.fusion;
 using com.meta.xr.colocation.fusion.debug;
 using Fusion;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityAssert = UnityEngine.Assertions.Assert;
 
@@ -11,6 +12,7 @@ namespace com.meta.xr.colocation.samples.fusion
     /// <summary>
     ///     A class that handles setting up and initializing colocation
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-Fusion")]
     public class FusionNetworkBootstrapper : NetworkBehaviour
     {
         [SerializeField] private GameObject anchorPrefab;

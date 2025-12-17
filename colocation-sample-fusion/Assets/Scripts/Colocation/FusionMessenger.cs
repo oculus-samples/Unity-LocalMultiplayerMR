@@ -3,6 +3,7 @@
 using System;
 using System.Text;
 using Fusion;
+using Meta.XR.Samples;
 
 namespace com.meta.xr.colocation.fusion
 {
@@ -10,6 +11,7 @@ namespace com.meta.xr.colocation.fusion
     ///     A Photon Fusion concrete implementation of INetworkMessenger
     ///     Used to send the RPC calls needed for a player to join another player's colocated space
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-Fusion")]
     public class FusionMessenger : NetworkBehaviour, INetworkMessenger
     {
         [Networked, Capacity(10)] private NetworkLinkedList<int> _networkIds { get; }

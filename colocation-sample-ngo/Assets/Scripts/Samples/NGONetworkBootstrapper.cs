@@ -2,6 +2,7 @@
 
 using com.meta.xr.colocation.ngo;
 using com.meta.xr.colocation.ngo.debug;
+using Meta.XR.Samples;
 using Unity.Collections;
 using Unity.Netcode;
 using UnityEngine;
@@ -12,6 +13,7 @@ namespace com.meta.xr.colocation.samples.ngo
     /// <summary>
     ///     A class that handles setting up and initializing colocation
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-NGO")]
     public class NGONetworkBootstrapper : NetworkBehaviour
     {
         [SerializeField] private GameObject anchorPrefab;

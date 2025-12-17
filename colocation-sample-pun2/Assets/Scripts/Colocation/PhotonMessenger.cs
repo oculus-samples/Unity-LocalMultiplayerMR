@@ -4,6 +4,7 @@ using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using ExitGames.Client.Photon;
+using Meta.XR.Samples;
 using Photon.Pun;
 using PhotonRealtime = Photon.Realtime;
 using RaiseEventOptions = Photon.Realtime.RaiseEventOptions;
@@ -14,6 +15,7 @@ namespace com.meta.xr.colocation.pun2
     ///     A PUN2 concrete implementation of INetworkMessenger
     ///     Used to send the RaiseEvent calls needed for a player to join another player's colocated space
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-PUN2")]
     public class PhotonMessenger : INetworkMessenger, IDisposable
     {
         public event Action<ShareAndLocalizeParams> AnchorShareRequestReceived;

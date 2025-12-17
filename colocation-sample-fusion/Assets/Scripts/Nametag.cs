@@ -2,8 +2,9 @@
 
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 using Fusion;
+using Meta.XR.Samples;
+using TMPro;
 using UnityAssert = UnityEngine.Assertions.Assert;
 
 namespace com.meta.xr.colocation.fusion.debug
@@ -11,6 +12,7 @@ namespace com.meta.xr.colocation.fusion.debug
     /// <summary>
     ///     A class that handles the behavior of a networked name tag
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-Fusion")]
     public class Nametag : NetworkBehaviour
     {
         [SerializeField] private TextMeshProUGUI textRef;

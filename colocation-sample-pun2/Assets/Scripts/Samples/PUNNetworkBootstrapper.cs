@@ -4,17 +4,19 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using com.meta.xr.colocation.pun2;
 using com.meta.xr.colocation.pun2.debug;
+using Meta.XR.Samples;
 using Oculus.Platform;
 using Oculus.Platform.Models;
 using Photon.Pun;
-using UnityEngine;
 using PhotonPlayer = Photon.Realtime.Player;
+using UnityEngine;
 
 namespace com.meta.xr.colocation.samples.pun2
 {
     /// <summary>
     ///     A class that handles setting up and initializing colocation
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-PUN2")]
     public class PUNNetworkBootstrapper : MonoBehaviour
     {
         [SerializeField] private GameObject AnchorPrefab;

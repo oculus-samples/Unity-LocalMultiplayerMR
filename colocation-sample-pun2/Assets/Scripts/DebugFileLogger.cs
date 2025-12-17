@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace com.meta.xr.colocation.pun2.debug
@@ -13,6 +14,7 @@ namespace com.meta.xr.colocation.pun2.debug
     ///     A class that saves application level logs to file
     /// </summary>
     [DefaultExecutionOrder(-10000)] // Set the execution order very early to catch as many startup logs as possible
+    [MetaCodeSample("LocalMultiplayerMR-PUN2")]
     public class DebugFileLogger : MonoBehaviour
     {
         private static readonly int InitialLogBufferBytes = 4096;

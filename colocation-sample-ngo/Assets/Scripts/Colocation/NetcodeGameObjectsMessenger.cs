@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Meta.XR.Samples;
 using Unity.Netcode;
 
 namespace com.meta.xr.colocation.ngo
@@ -11,6 +12,7 @@ namespace com.meta.xr.colocation.ngo
     ///     A Netcode for GameObjects concrete implementation of INetworkMessenger
     ///     Used to send the RPC calls needed for a player to join another player's colocated space
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-NGO")]
     public class NetcodeGameObjectsMessenger : NetworkBehaviour, INetworkMessenger
     {
         public event Action<ShareAndLocalizeParams> AnchorShareRequestReceived;

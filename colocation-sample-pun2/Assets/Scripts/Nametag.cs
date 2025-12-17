@@ -1,17 +1,19 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
-using UnityEngine;
-using UnityEngine.UI;
+using Meta.XR.Samples;
 using Photon.Pun;
-using TMPro;
-using UnityEngine.Assertions;
 using PhotonPlayer = Photon.Realtime.Player;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Assertions;
+using UnityEngine.UI;
 
 namespace com.meta.xr.colocation.pun2.debug
 {
     /// <summary>
     ///     A class that handles the behavior of a networked name tag
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-PUN2")]
     public class Nametag : MonoBehaviourPun
     {
         [SerializeField] private TextMeshProUGUI textRef;

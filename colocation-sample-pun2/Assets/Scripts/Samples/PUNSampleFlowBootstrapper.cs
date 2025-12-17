@@ -2,6 +2,7 @@
 
 using System.Collections.Generic;
 using System.Text;
+using Meta.XR.Samples;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine;
@@ -11,6 +12,7 @@ namespace com.meta.xr.colocation.samples.pun2
     /// <summary>
     ///     A class that initializes the multiplayer sample and handles player connection
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-PUN2")]
     public class PUNSampleFlowBootstrapper : MonoBehaviour, IConnectionCallbacks, IMatchmakingCallbacks
     {
         [SerializeField] private GameObject PUNNetworkBootstrapperPrefab;

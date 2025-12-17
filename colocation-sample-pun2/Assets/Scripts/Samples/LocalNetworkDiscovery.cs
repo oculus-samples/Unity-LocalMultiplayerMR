@@ -4,6 +4,7 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace com.meta.xr.colocation.samples.pun2
@@ -11,6 +12,7 @@ namespace com.meta.xr.colocation.samples.pun2
     /// <summary>
     ///     A class that handles matchmaking
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-PUN2")]
     public class LocalNetworkDiscovery : IDisposable
     {
         private readonly int _port;

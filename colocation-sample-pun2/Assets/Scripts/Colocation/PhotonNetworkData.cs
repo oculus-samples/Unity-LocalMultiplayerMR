@@ -1,11 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
-using ExitGames.Client.Photon;
-using Photon.Pun;
-using Photon.Realtime;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using ExitGames.Client.Photon;
+using Meta.XR.Samples;
+using Photon.Pun;
+using Photon.Realtime;
 using PhotonRealtime = Photon.Realtime;
 
 namespace com.meta.xr.colocation.pun2
@@ -14,6 +15,7 @@ namespace com.meta.xr.colocation.pun2
     ///     A PUN2 concrete implementation of INetworkData
     ///     Used to manage a Player and Anchor list that all players that colocated are in
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-PUN2")]
     public class PhotonNetworkData : INetworkData, IInRoomCallbacks
     {
         private List<Player> _photonPlayerList;

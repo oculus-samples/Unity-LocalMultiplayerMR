@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.meta.xr.colocation": "file:../../colocation-package",
-    "com.meta.xr.sdk.core": "81.0.0",
-    "com.meta.xr.sdk.platform": "81.0.0",
+    "com.meta.xr.sdk.core": "83.0.0",
+    "com.meta.xr.sdk.platform": "83.0.0",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",

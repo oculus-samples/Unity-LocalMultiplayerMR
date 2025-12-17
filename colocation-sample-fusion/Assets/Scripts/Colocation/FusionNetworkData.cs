@@ -2,6 +2,7 @@
 
 using System.Collections.Generic;
 using Fusion;
+using Meta.XR.Samples;
 
 namespace com.meta.xr.colocation.fusion
 {
@@ -9,6 +10,7 @@ namespace com.meta.xr.colocation.fusion
     ///     A Photon Fusion concrete implementation of INetworkData
     ///     Used to manage a Player and Anchor list that all players that colocated are in
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-Fusion")]
     public class FusionNetworkData : NetworkBehaviour, INetworkData
     {
         [Networked] private uint ColocationGroupCount { get; set; }

@@ -2,6 +2,7 @@
 
 using System.Net;
 using System.Threading.Tasks;
+using Meta.XR.Samples;
 using Oculus.Platform;
 using Oculus.Platform.Models;
 using Unity.Netcode;
@@ -13,6 +14,7 @@ namespace com.meta.xr.colocation.samples.ngo
     /// <summary>
     ///     A class that initializes the multiplayer sample and handles player connection
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR-NGO")]
     public class NGOSampleFlowBootstrapper : MonoBehaviour
     {
         [SerializeField] private NGONetworkBootstrapper ngoNetworkBootstrapperPrefab;
