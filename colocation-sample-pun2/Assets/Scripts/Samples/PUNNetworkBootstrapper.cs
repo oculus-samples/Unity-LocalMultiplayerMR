@@ -49,11 +49,6 @@ namespace com.meta.xr.colocation.samples.pun2
             Logger.Log(
                 $"{nameof(PUNNetworkBootstrapper)}: Success in receiving a message from {nameof(GetLoggedInUserCallback)}",
                 LogLevel.Verbose);
-            bool isLoggedInUserMessage = message.Type == Message.MessageType.User_GetLoggedInUser;
-            if (!isLoggedInUserMessage)
-            {
-                return;
-            }
 
             User user = message.GetUser();
             _myOculusId = user.ID;
