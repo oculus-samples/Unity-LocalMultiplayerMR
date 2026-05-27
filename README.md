@@ -39,3 +39,21 @@ In each Unity Project, the Multiplayer Sample contains the following
 This codebase is available as both a sample and a template for mixed reality projects. The majority of the project is licensed under [MIT LICENSE](./LICENSE.txt), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), and Photon SDK[[1](./colocation-sample-fusion/Assets/ThirdParty/Photon/LICENSE.txt)] [[2](./colocation-sample-pun2/Assets/ThirdParty/Photon/LICENSE.txt)], are licensed under their respective licensing terms.
 
 See the [CONTRIBUTING](./CONTRIBUTING.md) file for how to help out.
+
+## Agent-ready development
+
+This sample is configured for AI coding agents.
+
+For the best experience in VS Code or Cursor, install the Meta Horizon extension:
+
+https://marketplace.visualstudio.com/items?itemName=meta.meta-vr-dev
+
+This repository also includes agent instructions and MCP configuration for Meta Quest Agentic Tools:
+
+https://github.com/meta-quest/agentic-tools
+
+Suggested first prompt:
+
+```text
+Read AGENTS.md, detect what type of Meta Quest sample this is, enable the hzdb MCP server if available, and explain how to build, run, and debug this sample on a Quest device.
+```

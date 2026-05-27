@@ -6,7 +6,7 @@
 Assets/Plugins/Editor/JetBrains*
 
 # Visual Studio Code
-.vscode/
+.vscode/*
 
 ### Unity ###
 [Ll]ibrary/
@@ -53,3 +53,7 @@ sysinfo.txt
 .DS_Store
 
 UserSettings
+
+# Meta Quest agentic tooling: keep VS Code/Cursor workspace recommendations
+!.vscode/extensions.json
+!.vscode/mcp.json
