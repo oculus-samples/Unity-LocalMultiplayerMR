@@ -39,3 +39,9 @@ In each Unity Project, the Multiplayer Sample contains the following
 This codebase is available as both a sample and a template for mixed reality projects. The majority of the project is licensed under [MIT LICENSE](./LICENSE.txt), however files from [Text Mesh Pro](http://www.unity3d.com/legal/licenses/Unity_Companion_License), and Photon SDK[[1](./colocation-sample-fusion/Assets/ThirdParty/Photon/LICENSE.txt)] [[2](./colocation-sample-pun2/Assets/ThirdParty/Photon/LICENSE.txt)], are licensed under their respective licensing terms.
 
 See the [CONTRIBUTING](./CONTRIBUTING.md) file for how to help out.
+
+## AI coding agents
+
+This repo is wired up for AI coding agents — `AGENTS.md`, `.vscode/extensions.json`, `.mcp.json`, `.cursor/rules/`, and a few client-specific dotfiles surface the **Meta Horizon** VS Code/Cursor extension, the `hzdb` MCP server, and the Meta Quest skill set automatically.
+
+Full toolchain (including Unity skills and per-client install instructions): <https://github.com/meta-quest/agentic-tools>
