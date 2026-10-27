@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace com.meta.xr.colocation
@@ -7,6 +8,7 @@ namespace com.meta.xr.colocation
     /// <summary>
     ///     Class that handles aligning the camera to a given anchor
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR.Core-Colocation")]
     [DefaultExecutionOrder(10)]
     public class AlignCameraToAnchor : MonoBehaviour
     {

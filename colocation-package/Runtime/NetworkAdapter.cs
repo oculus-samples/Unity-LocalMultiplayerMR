@@ -1,7 +1,10 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
+
 namespace com.meta.xr.colocation
 {
+    [MetaCodeSample("LocalMultiplayerMR.Core-Colocation")]
     public static class NetworkAdapter
     {
         /// <summary>

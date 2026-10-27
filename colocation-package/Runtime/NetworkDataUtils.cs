@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using System.Collections.Generic;
+using Meta.XR.Samples;
 
 namespace com.meta.xr.colocation
 {
+    [MetaCodeSample("LocalMultiplayerMR.Core-Colocation")]
     public static class NetworkDataUtils
     {
         public static ulong? GetOculusIdOfColocatedGroupOwnerFromColocationGroupId(uint colocationGroupId)

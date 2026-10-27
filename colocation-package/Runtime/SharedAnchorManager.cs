@@ -4,12 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Assertions;
 using Object = UnityEngine.Object;
 
 namespace com.meta.xr.colocation
 {
+    [MetaCodeSample("LocalMultiplayerMR.Core-Colocation")]
     public class SharedAnchorManager
     {
         /// <summary>

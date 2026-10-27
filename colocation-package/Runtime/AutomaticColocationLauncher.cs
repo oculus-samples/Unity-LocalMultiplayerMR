@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace com.meta.xr.colocation
@@ -10,6 +11,7 @@ namespace com.meta.xr.colocation
     /// <summary>
     ///     Class that handles creating and joining a colocated space
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR.Core-Colocation")]
     public class AutomaticColocationLauncher
     {
         public event Action ColocationReady;

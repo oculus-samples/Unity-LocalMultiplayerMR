@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using System;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace com.meta.xr.colocation
@@ -8,6 +9,7 @@ namespace com.meta.xr.colocation
     /// <summary>
     ///     Class used for setting the visibility of logs
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR.Core-Colocation")]
     public static class Logger
     {
         private static bool _isVerboseLogVisible;

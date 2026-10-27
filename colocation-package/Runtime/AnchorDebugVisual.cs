@@ -1,6 +1,7 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using System;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace com.meta.xr.colocation.samples.utils
@@ -8,6 +9,7 @@ namespace com.meta.xr.colocation.samples.utils
     /// <summary>
     ///     Class that handles the visual appearance of an Anchor
     /// </summary>
+    [MetaCodeSample("LocalMultiplayerMR.Core-Colocation")]
     public class AnchorDebugVisual : MonoBehaviour
     {
         private static bool _debugVisualsVisible = true;
