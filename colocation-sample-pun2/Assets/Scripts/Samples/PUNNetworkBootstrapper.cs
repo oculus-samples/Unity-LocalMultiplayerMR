@@ -31,7 +31,8 @@ namespace com.meta.xr.colocation.samples.pun2
         public void Init()
         {
             _ovrCameraRig = FindObjectOfType<OVRCameraRig>();
-            _myPlayerId = (ulong)SystemInfo.deviceUniqueIdentifier.GetHashCode();
+            // Copies running on one PC (XR Simulator, ParrelSync clones) share the device id, so each run gets its own.
+            _myPlayerId = (ulong)System.Guid.NewGuid().GetHashCode();
             Core.Initialize();
             Users.GetLoggedInUser().OnComplete(GetLoggedInUserCallback);
         }

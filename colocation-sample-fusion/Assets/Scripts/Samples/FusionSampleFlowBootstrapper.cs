@@ -30,7 +30,8 @@ namespace com.meta.xr.colocation.samples.fusion
 
         private async void Start()
         {
-            _myPlayerId = (ulong)SystemInfo.deviceUniqueIdentifier.GetHashCode();
+            // Copies running on one PC (XR Simulator, ParrelSync clones) share the device id, so each run gets its own.
+            _myPlayerId = (ulong)System.Guid.NewGuid().GetHashCode();
             if (await TryGetOculusUser())
             {
                 Logger.Log(
